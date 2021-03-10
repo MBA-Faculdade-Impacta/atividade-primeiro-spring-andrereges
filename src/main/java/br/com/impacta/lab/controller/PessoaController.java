@@ -52,7 +52,11 @@ public class PessoaController {
 		for (int contador = 0; contador < bancoDeDados.size(); contador++) {
 			Pessoa pessoa = bancoDeDados.get(contador);
 			if (pessoa.getId() == id) {
+				pessoa.setNome(newPessoa.getNome());
+				pessoa.setSobrenome(newPessoa.getSobrenome());
+				pessoa.setIdade(newPessoa.getIdade());
 				pessoa.setVivo(newPessoa.isVivo());
+				pessoa.setCasado(newPessoa.isCasado());
 				
 				return ResponseEntity.ok(pessoa);
 			}
