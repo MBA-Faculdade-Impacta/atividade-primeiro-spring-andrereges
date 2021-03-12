@@ -1,7 +1,9 @@
-package br.com.impacta.lab.controller;
+package br.com.impacta.lab.controllers;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import br.com.impacta.lab.models.Pessoa;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;

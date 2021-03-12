@@ -1,25 +1,25 @@
-package br.com.impacta.lab.controller;
+package br.com.impacta.lab.models;
 
 public class Produto {
 
-	private int id;
+	private Integer codigo;
 	private String descricao;
 	private Double valor;
 
 	public Produto() {}
 
-	public Produto(int Id, String descricao, Double valor) {
-		this.id = id;
+	public Produto(Integer codigo, String descricao, Double valor) {
+		this.codigo = codigo;
 		this.descricao = descricao;
 		this.valor = valor;
 	}
 
-	public int getId() {
-		return id;
+	public Integer getCodigo() {
+		return codigo;
 	}
 
-	public void setId(int id) {
-		this.id = id;
+	public void setCodigo(Integer codigo) {
+		this.codigo = codigo;
 	}
 
 	public String getDescricao() {

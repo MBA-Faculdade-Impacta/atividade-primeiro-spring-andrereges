@@ -1,4 +1,4 @@
-package br.com.impacta.lab.controller;
+package br.com.impacta.lab.models;
 
 public class Pessoa {
 
